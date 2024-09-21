@@ -1,13 +1,13 @@
-package org.unission.location2;
+package org.unission.location;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Location2Application {
+public class LocationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Location2Application.class, args);
+        SpringApplication.run(LocationApplication.class, args);
     }
 
 }

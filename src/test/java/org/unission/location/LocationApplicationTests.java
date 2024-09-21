@@ -1,10 +1,10 @@
-package org.unission.location2;
+package org.unission.location;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Location2ApplicationTests {
+class LocationApplicationTests {
 
     @Test
     void contextLoads() {

@@ -9,23 +9,10 @@
         <relativePath/>
     </parent>
     <groupId>org.unission</groupId>
-    <artifactId>location2</artifactId>
+    <artifactId>location</artifactId>
     <version>0.0.1-beta</version>
-    <name>location2</name>
-    <description>location2</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+    <name>location</name>
+    <description>location</description>
     <properties>
         <java.version>17</java.version>
     </properties>

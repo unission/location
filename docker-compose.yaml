@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  service:
+    build:
+      dockerfile: Dockerfile
+    container_name: location_service
+    restart: always
+    ports:
+      - "8070:8070"
+    env_file: "postgres.env"
+    depends_on:
+      - db
+    network_mode: host
+
+  db:
+    image: postgres:latest
+    container_name: location_db
+    restart: always
+    ports:
+      - "5420:5432"
+    volumes:
+      - pglocationdata:/var/lib/postgresql/data
+    env_file: "postgres.env"
+    network_mode: bridge
+
+volumes:
+  pglocationdata:
