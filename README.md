@@ -9,8 +9,8 @@ Location service for unission
     - POSTGRES_DB=your database name
 3. To compile the service run the following command:
     - ```shell
-     mvn clean package
-     ```
+      mvn clean package
+      ```
 4. To start the service run the following command:
     - ```shell
       docker compose up -d
